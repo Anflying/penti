@@ -1,0 +1,10 @@
+<%= link_to "#{Category.first.name}",home_first_tag_path %></br>
+<%= link_to "#{Category.second.name}", home_second_tag_path %></br>
+
+<%= Category.first.name %>
+<ul>
+  <% @articles_one.each do |article| %>
+    <li><%= link_to "#{article.name}", article_path(article) %></li>
+  <% end %>
+</ul>
+<%= will_paginate @articles_one %>

@@ -1,6 +1,8 @@
 source 'https://ruby.taobao.org'
 
-
+gem 'will_paginate'
+gem 'sunspot_rails'
+gem 'sunspot_solr'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use sqlite3 as the database for Active Record
