@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'admin/index'
+
+  devise_for :users
   get 'home/first_tag'
   get 'home/second_tag'
 
