@@ -1,6 +1,6 @@
 
 /* 全局CSS定义 */
-body { text-align;font-family:  宋体, serif;  margin:0; padding:0; background: #FFF; font-size:12px; color:#000;}
+body { text-align;font-family:  宋体, serif;  margin:0; padding:0;  font-size:12px; }
 div,form,img,ol,dl,dt,dd {margin: 0; padding: 0; border: 0;}
 h1,h2,h3,h4,h5,h6 { margin:0; padding:0;}
 table,td,tr,th{font-size:12px;}
@@ -48,18 +48,23 @@ ul{
 
 /*中间左部样式*/
 .main_left_top{
-    height: 22px;
+    border:2px dashed #ccc;
     background: #dddddd;
     padding-left: 10px;
+    
+}
+.main_left_top p{
+    font-size: 15px
 }
 
 .main_left{
 	width: 700px;
     height: 700px;
-	background: #ccc;
 	float: left;
     text-align：right;
     margin:auto;
+    border-right:1px dashed #ccc;
+    border-left:1px dashed #ccc;
 }
 .main_main{
     width: 680px;
@@ -70,13 +75,13 @@ ul{
 .main_1{
     width: 330px;
     height: 650px;
-    background: red;
+    background: #dddddd;
     float: left;
 }
 .main_2{
     width: 330px;
     height: 650px;
-    background: green;
+    background: #dddddd;
     float: right;
 }
 
@@ -84,8 +89,49 @@ ul{
 .main_right{
     width: 310px;
     height: 700px;
-    background: green;
+    background: #dddddd;
     float: right;
     text-align：left;
 
+}
+
+/*css for show*/
+#show_main{
+    width: 1029px; 
+    height: 800px;
+    margin: auto;
+}
+
+
+.clear{
+    clear: both;
+}
+
+.head_imge2{
+    height: 100px;
+    background-image:url(http://ptimg.org:88/dapenti/CXxLP5UV/j911x.jpg);
+    margin:auto;
+    background-repeat: no-repeat;
+}
+#show_left{
+    width: 728px;
+    float: left;
+}
+.show_bottom{
+    height: 400px;
+    width: 728px;
+    background: green;
+
+}
+.show_biaoti{
+    height: 200px
+    background: red;
+}
+
+
+#show_right{
+    width: 280px;
+    height: 800px;
+    background: #aaa;
+    float: right;
 }
