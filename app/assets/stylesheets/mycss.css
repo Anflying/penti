@@ -1,0 +1,91 @@
+
+/* 全局CSS定义 */
+body { text-align;font-family:  宋体, serif;  margin:0; padding:0; background: #FFF; font-size:12px; color:#000;}
+div,form,img,ol,dl,dt,dd {margin: 0; padding: 0; border: 0;}
+h1,h2,h3,h4,h5,h6 { margin:0; padding:0;}
+table,td,tr,th{font-size:12px;}
+ul{
+    list-style:circle
+}
+
+/*头部样式*/
+#head{
+	height: 100px;
+    width: 1280px;
+    background: #dddddd;
+    margin:auto;
+}
+
+.head_top{
+    height: 100px;
+    width: 1020px;
+    margin:auto;
+    background: white;
+}
+
+.head_imge{
+    height: 100px;
+    width: 840px;
+    background-image:url(http://ww4.sinaimg.cn/mw1024/6283e751gw1eym9u9387hg20jg02s0sw.gif);
+    float: left;
+    background-repeat: no-repeat;
+}
+.head_sosuo{
+    height: 65px;
+    width: 180px;
+	float: right;
+    margin-top:35px;
+    background: white;
+}
+
+
+/*中间部分样式*/
+#main{
+    width: 1020px;
+    margin:auto;
+}
+
+
+/*中间左部样式*/
+.main_left_top{
+    height: 22px;
+    background: #dddddd;
+    padding-left: 10px;
+}
+
+.main_left{
+	width: 700px;
+    height: 700px;
+	background: #ccc;
+	float: left;
+    text-align：right;
+    margin:auto;
+}
+.main_main{
+    width: 680px;
+    height: 670px;
+    margin:auto;
+    
+}
+.main_1{
+    width: 330px;
+    height: 650px;
+    background: red;
+    float: left;
+}
+.main_2{
+    width: 330px;
+    height: 650px;
+    background: green;
+    float: right;
+}
+
+/*中间右部样式*/
+.main_right{
+    width: 310px;
+    height: 700px;
+    background: green;
+    float: right;
+    text-align：left;
+
+}
