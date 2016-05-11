@@ -1,5 +1,6 @@
 source 'https://ruby.taobao.org'
 
+gem 'devise'
 gem 'will_paginate'
 gem 'sunspot_rails'
 gem 'sunspot_solr'

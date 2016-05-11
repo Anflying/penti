@@ -19,9 +19,11 @@
         <td><%= article.name %></td>
         <td><%= article.content %></td>
         <td><%= article.category.name %></td>
-        <td><%= link_to 'eee', article %></td>
-        <td><%= link_to 'Edit', edit_article_path(article) %></td>
-        <td><%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'show', article %></td>
+        <% if user_signed_in? %>
+          <td><%= link_to 'Edit', edit_article_path(article) %></td>
+          <td><%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <% end %>  
       </tr>
     <% end %>
   </tbody>
